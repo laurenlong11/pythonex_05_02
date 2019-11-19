@@ -1,11 +1,11 @@
 largest = None
 smallest = None
 while True:
-  num = input("Enter number: ")
-  if num == "done" :
-    break
-  try:
-    float(num)
+	num = input("Enter number: ")
+	if num == "done" :
+		break
+	try:
+		float(num)
 	except:
 		print("Invalid input")
 		continue
